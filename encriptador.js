@@ -32,3 +32,9 @@ const Desencriptar=()=>{
         document.getElementById('resultadoEncriptar').value = textoEncriptado;
     }
 }
+
+const texto = document.getElementById('resultadoEncriptar');
+
+const copiar=()=>{
+    navigator.clipboard.writeText(texto.value);
+}
