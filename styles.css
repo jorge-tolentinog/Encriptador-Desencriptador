@@ -133,3 +133,110 @@ header img {
 #vistaError img {
     margin-top: 40px;
 }
+
+@media screen and (max-width: 768px) {
+    .contenedor {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+    }
+
+    .caja-input {
+        margin-top: 100px;
+        margin-left: 50px;
+        width: auto;
+    }
+
+    .input-encriptar {
+        font-size: 40px;
+        height: 700px;
+        width: 660px;
+    }
+
+    .encriptar,
+    .desencriptar {
+        width: 332px;
+        height: 67px;
+        font-size: 19px;
+        border-radius: 40px;
+        -webkit-border-radius: 40px;
+        -moz-border-radius: 40px;
+        -ms-border-radius: 40px;
+        -o-border-radius: 40px;
+    }
+
+    .encriptar {
+        margin-right: 12px;
+    }
+
+    header img {
+        margin-left: 0;
+        margin-top: 80px;
+    }
+
+    .texto-aviso {
+        padding: 40px 0 0 0;
+        font-size: 18px;
+    }
+
+    .option-row {
+        width: 688px;
+        height: 67px;
+    }
+
+    #vistaError img {
+        display: none;
+    }
+
+    .Mensaje-error h2 {
+        font-weight: bolder;
+        font-size: 29px;
+        padding-top: 25px;
+    }
+
+    .Mensaje-error p {
+        font-size: 24px;
+        padding-bottom: 30px;
+    }
+
+    .Mensaje-error {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .caja-output {
+        margin-left: 35px;
+        height: auto;
+        width: 688px;
+        padding-top: 0;
+    }
+
+    #vistaResultado {
+        width: auto;
+        margin-top: 70px;
+        margin-bottom: 70px;
+    }
+
+    .output-resultado {
+        max-height: 180px;
+        display: block;
+        width: 624px;
+        padding: 37px;
+    }
+
+    .copiar {
+        background: white;
+        margin: 0;
+        height: 67px;
+        width: 624px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        font-size: 19px;
+        border-radius: 32px;
+        -webkit-border-radius: 32px;
+        -moz-border-radius: 32px;
+        -ms-border-radius: 32px;
+        -o-border-radius: 32px;
+    }
+
+}
